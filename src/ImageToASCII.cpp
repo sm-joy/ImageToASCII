@@ -62,6 +62,8 @@ int main()
 	delete [] grayImage;
 	stbi_image_free(image);
 
+	std::cin.get();
+
 	return 0;
 }
 
